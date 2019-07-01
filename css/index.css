@@ -1,0 +1,274 @@
+html,body{
+    height: 100%;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}  
+
+/* 第一页 */
+#page1{
+    position:relative;
+    background:url("../images/beijing.jpg") ;
+    background-size:100% 100%;
+}
+
+#page1>img{
+    position:absolute;
+}
+.biaoti{
+    width:4rem;
+    height:2.22rem;
+    left:1.8rem;
+    top:0.6rem;
+}
+.gerenjieshao{
+    position:absolute;
+    font-size:0.32rem;
+    left:0.8rem;
+    top:2.8rem;
+    line-height:0.64rem;
+    color:rgb(24, 24, 23);
+}
+.gerenjieshao2{
+    position:absolute;
+    font-size:0.32rem;
+    left:0.8rem;
+    top:5.5rem;
+    line-height:0.64rem;
+    color:rgb(24, 24, 23);
+}
+.benpao{
+    width:100%;
+    bottom:0;
+    left:0;
+}
+#next{
+    width:0.5rem;
+    height:0.4rem;
+    background:url("../images/arrow.png") center center no-repeat;
+    background-size:cover;
+    bottom:0.2rem;
+    top:auto;
+    left:50%;
+    margin-left:-0.25rem;
+    animation: fadeInUp 0.5s linear infinite;
+}
+@-webkit-keyframes fadeInUp {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+#page2>img{
+    position: absolute;
+}
+#page2{
+    position: relative;
+    height:100%;
+    background:url("../images/beijing.jpg");
+    background-size:100% 100%;
+
+}
+.zhuanye{
+    width:3rem;
+    height:1rem;
+    right:2.1rem;
+    top:0.6rem;
+}
+.jineng{
+    position:absolute;
+    font-size:0.32rem;
+    left:3.2rem;
+    top:0.75rem;
+    line-height:0.64rem;
+    color:#000;
+}
+.dw{
+    width:1.6rem;
+    height:1.6rem;
+    right:0.3rem;
+    top:2rem;
+}
+.ai{
+    width:1.6rem;
+    height:1.6rem;
+    right:2.85rem;
+    top:2rem;
+}
+.ps{
+    width:1.6rem;
+    height:1.6rem;
+    right:5.5rem;
+    top:2rem;
+
+}
+.textContent{
+    position:absolute;
+    font-size:0.32rem;
+    left:0.8rem;
+    top:4rem;
+    line-height:0.64rem;
+    color:rgb(0, 0, 0);
+}
+.zhuanye2{
+    width:3rem;
+    height:1rem;
+    right:2.1rem;
+    top:6.6rem;
+}
+.jineng2{
+    position:absolute;
+    font-size:0.32rem;
+    left:3.2rem;
+    top:6.75rem;
+    line-height:0.64rem;
+    color:#000;
+}
+.textContent2{
+    position:absolute;
+    font-size:0.32rem;
+    left:0.8rem;
+    top:8rem;
+    line-height:0.64rem;
+    color:rgb(0, 0, 0);
+}
+.zhuanye3{
+    width:3rem;
+    height:1rem;
+    right:2.1rem;
+    top:9.6rem;
+}
+.jineng3{
+    position:absolute;
+    font-size:0.32rem;
+    left:3.2rem;
+    top:9.75rem;
+    line-height:0.64rem;
+    color:#000;
+}
+.textContent3{
+    position:absolute;
+    font-size:0.32rem;
+    left:0.8rem;
+    top:11rem;
+    line-height:0.64rem;
+    color:rgb(0, 0, 0);
+}
+#page3{
+    position:relative;
+    background:url("../images/beijing.jpg");
+    background-size:100% 100%;
+}
+#page3>img{
+    position: absolute;
+}
+.jvshou{
+ width:5.72rem;
+ height:2.96rem;
+ top:0.5rem;
+ left:50%;
+ margin-left:-2.86rem;
+}
+.peoples{
+  width:30%;
+  left:38%;
+  bottom:0;
+}
+.zuopin1{
+    width:3.72rem;
+ height:2.96rem;
+ top:3.8rem;
+ left:1.7rem;
+}
+.zuopin2{
+    width:3rem;
+ height:3rem;
+ top:7.3rem;
+ left:2rem;
+}
+.bufen{
+    width:3rem;
+ height:3rem;
+ top:3.1rem;
+ left:3rem;
+ position: absolute;
+ font-size: 0.32rem;
+ line-height: 0.64rem;
+}
+.xiexie{
+    width:3rem;
+ height:3rem;
+ top:11.9rem;
+ left:1rem;
+ position: absolute;
+ font-size: 0.40rem;
+ line-height: 0.64rem;
+}
+
+.blackBoard{
+   position: absolute;
+   width:5.56rem;
+   height:4.04rem;
+   background:url("../images/page3_heiban.png") center center no-repeat;
+   background-size:100% 100%;
+   top:50%;
+   left:50%;
+   margin-left:-2.78rem;
+   margin-top:-2.02rem;
+   padding:0.8rem;
+   padding-left:0.6rem;
+   box-sizing:border-box;
+}
+.erweima{
+   width:2.48rem;
+   height:2.5rem;
+   background:url("../images/erweima.jpg") center center no-repeat;
+   background-size:cover;
+   float:left;
+}
+
+
+.music{
+   width:1rem;
+   height:1rem;
+   background:url("../images/music.jpg") center center no-repeat;
+   background-size:cover;
+   position: absolute;
+   left:0.2rem;
+   top:0.2rem;
+   z-index:999;
+   border-radius:50%;
+   animation: music 2s linear infinite;
+
+}
+
+@keyframes music{
+   100%{
+       transform: rotate(360deg)
+   }
+}
+
+
